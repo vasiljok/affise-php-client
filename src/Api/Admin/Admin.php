@@ -6,11 +6,11 @@
     class Admin extends Base {
         protected $endpointAdminBase = "admin";
 
-        public function getEndpointAdminBase(): string {
+        public function getEndpointAdminBase() {
             return $this->endpointAdminBase;
         }
 
-        public function getAdminEndpointBase(): string {
+        public function getAdminEndpointBase() {
             return implode("/", [
                 $this->getEndpointAdminBase()
             ]);

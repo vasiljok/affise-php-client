@@ -6,7 +6,7 @@
     class Conversion extends Admin {
         protected $endpointBase = "conversion";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 

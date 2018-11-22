@@ -6,7 +6,7 @@
     class Offer extends Admin {
         protected $endpointBase = "offer";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 

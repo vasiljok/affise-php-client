@@ -13,11 +13,11 @@
     class Offer extends Base {
         protected $endpointBase = "offer";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 
-        private function getEndpointBasePlural(): string {
+        private function getEndpointBasePlural() {
             return $this->endpointBase . "s";
         }
 

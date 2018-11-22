@@ -6,7 +6,7 @@
     class Advertiser extends Admin {
         protected $endpointBase = "advertiser";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 

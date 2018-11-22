@@ -80,7 +80,7 @@
         /**
          * @return string
          */
-        public function getApiUrl(): string
+        public function getApiUrl()
         {
             return $this->apiUrl;
         }
@@ -88,7 +88,7 @@
         /**
          * @param string $apiUrl
          */
-        public function setApiUrl(string $apiUrl)
+        public function setApiUrl($apiUrl)
         {
             $this->apiUrl = $apiUrl;
         }
@@ -96,7 +96,7 @@
         /**
          * @return string
          */
-        public function getApiVersion(): string
+        public function getApiVersion()
         {
             return $this->apiVersion;
         }
@@ -104,7 +104,7 @@
         /**
          * @param string $apiVersion
          */
-        public function setApiVersion(string $apiVersion)
+        public function setApiVersion($apiVersion)
         {
             $this->apiVersion = $apiVersion;
         }
@@ -144,7 +144,7 @@
         /**
          * @return array
          */
-        public function getHeaders(): array
+        public function getHeaders()
         {
             return $this->headers;
         }

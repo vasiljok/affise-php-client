@@ -7,7 +7,7 @@
     class Partner extends Admin {
         protected $endpointBase = "partner";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 

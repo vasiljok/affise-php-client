@@ -7,11 +7,11 @@
     class Partner extends Base {
         protected $endpointBase = "partner";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 
-        public function setEndpointBase(string $endpointBase) {
+        public function setEndpointBase($endpointBase) {
             $this->endpointBase = $endpointBase;
         }
 

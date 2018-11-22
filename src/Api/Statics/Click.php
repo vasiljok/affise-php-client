@@ -7,11 +7,11 @@
     class Click extends Base {
         protected $endpointBase = "stats";
 
-        public function getEndpointBase(): string {
+        public function getEndpointBase() {
             return $this->endpointBase;
         }
 
-        public function setEndpointBase(string $endpointBase) {
+        public function setEndpointBase($endpointBase) {
             $this->endpointBase = $endpointBase;
         }
 
